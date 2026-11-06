@@ -2,20 +2,8 @@
 
 A responsive, multi-section photography and cinematography studio website built with plain HTML, CSS and JavaScript. No build tools or framework installation are required.
 
-## Run locally
-1. Extract the ZIP file.
-2. Open the `singhwani-films-website` folder.
-3. Double-click `index.html`, or run a local server:
-   - VS Code: install/use Live Server and choose **Open with Live Server**.
-   - Python: `python -m http.server 8000` and open `http://localhost:8000`.
 
-## Before publishing — important setup
-Open `config.js` and update:
-- `phoneDisplay` / `phoneLink`
-- `whatsappNumber` (digits only, with country code; e.g. `919876543210`)
-- `email` (optional)
-- `googleReviewUrl` (paste the direct Google review link)
-- `mapQuery` (verify the exact studio pin/address)
+
 
 The enquiry form and estimate tool open WhatsApp with a pre-filled message. The customer reviews button currently points to the supplied Justdial listing until a direct Google review URL is added.
 
